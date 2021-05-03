@@ -25,3 +25,8 @@ ex)target.classList.toggle('circle');
 
 ・JSでエレメント追加、要素間の関係について
 ex)document.body.appendChild(div);
+
+・for文
+
+・line-height
+1行以上は注意

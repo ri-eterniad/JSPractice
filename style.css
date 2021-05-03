@@ -8,7 +8,9 @@ body{
     background-color: skyblue;
     cursor: pointer;
     transition: 0.8s;
-    margin: 0 8px;
+    margin: 2px 8px;
+    text-align: center;
+    line-height: 100px;
 }
 .circle {
     background-color: pink;
