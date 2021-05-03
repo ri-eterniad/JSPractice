@@ -14,18 +14,16 @@
 
     <script>
         'use strict';
-        // 文章の中から指定したID(target)を持つ要素をゲットしてね
-        //何か動きをしたら次の動きをしてね
-        //記法としてはアロー関数が一般的
-        //JSでは大文字小文字を区別する
-        document.getElementById('target').addEventListener('click',()=>{
+
+        const target =document.getElementById('target');
+        target.addEventListener('click',()=>{
             // document.getElementById('target').style.background = 'pink';
             // document.getElementById('target').style.borderRadius = '50%';
-            document.getElementById('target').classList.add('circle');
+            target.classList.toggle('circle');
         });
         document.getElementById('target').addEventListener('dblclick',()=>{
-            document.getElementById('target').style.background = 'green';
-            document.getElementById('target').style.borderRadius = '10%';
+            target.style.background = 'green';
+            target.style.borderRadius = '10%';
         });
     </script>
 </body>
