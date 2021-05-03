@@ -30,3 +30,8 @@ ex)document.body.appendChild(div);
 
 ・line-height
 1行以上は注意
+
+・Math.floor(),Math.random()の挙動
+console.logで確認できる
+
+・transform scale
