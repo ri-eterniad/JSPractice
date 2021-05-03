@@ -22,3 +22,6 @@ document.getElementById('~~').classList.add('~~');
 
 ・toggleクラスがなかったらつけるついていたら外す
 ex)target.classList.toggle('circle');
+
+・JSでエレメント追加、要素間の関係について
+ex)document.body.appendChild(div);
